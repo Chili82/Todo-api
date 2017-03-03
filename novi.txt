@@ -1,2 +1,15 @@
 novi 1 4r
  branch
+ 
+ To install the command run the following:
+
+npm i -g angular-cli-ghpages
+Usage
+
+Execute angular-cli-ghpages in order to deploy the project with a build from dist folder.
+Note: you have to create the dist folder in before (e.g. ng build --prod)
+
+Usage:
+
+ng build --prod --base-href "https://USERNAME.github.io/REPOSITORY/"
+angular-cli-ghpages [OPTIONS]
